@@ -1,4 +1,4 @@
-const Logger = require('./log');
+require('./log');
 const logger = new Logger();
 
 logger.on('some_event', (args) => {
