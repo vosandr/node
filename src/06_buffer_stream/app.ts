@@ -1,5 +1,5 @@
-const fs = require('fs');
-const zlib = require('zlib')
+import fs from 'fs';
+import zlib from 'zlib';
 
 const readStream = fs.createReadStream('./docs/text.txt')
 const writeStream = fs.createWriteStream('./docs/new-text.txt');

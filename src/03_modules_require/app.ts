@@ -1,5 +1,5 @@
 import os from 'os';
-import {user, sayHi} from './test';
+import { sayHi } from './test';
 
 const name1 = 'Tommy';
 
