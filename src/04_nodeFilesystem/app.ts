@@ -1,10 +1,10 @@
 const { error } = require('console');
 const fs = require('fs');
 
-  fs.readFile('./app.js', 'utf8', (error, data) => {
+  fs.readFile('./app.ts', 'utf8', (error: any, data: any) => {
     fs.mkdirSync('./files', ()=>{});
 
-    fs.writeFileSync('./files/app.js', data, (error)=>{
+    fs.writeFileSync('./files/app.ts', data, (error: any)=>{
       error ? console.log(error) : null;
     });
 

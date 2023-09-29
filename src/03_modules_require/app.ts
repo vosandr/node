@@ -1,10 +1,10 @@
 import os from 'os';
 import { sayHi } from './test';
 
-const name1 = 'Tommy';
+const name = 'Tommy';
 
-console.log(sayHi(name1));
+console.log(sayHi(name));
 
 console.log(`${os.platform()}, ${os.release()}`);
 
-module.exports = name1;
+module.exports = name;
